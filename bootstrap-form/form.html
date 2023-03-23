@@ -5,75 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <div >
-      <div >
-        <div md-4 offset-md-4">
-          <div light mt-4 p-4">
-            <form action="" method="" g-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 offset-4">
+          <div class="card mt-5 p-4">
+            <form action="" method="" class="row g-3">
               <h4>Welcome Back</h4>
-              <div 12">
+              <div class="col-12">
                 <label>Username</label>
                 <input
                   type="text"
                   name="username"
-                  control"
                   placeholder="Username"
+                  class="form-control"
                 />
               </div>
-              <div 12">
+              <div class="col-12">
                 <label>Password</label>
                 <input
                   type="password"
                   name="password"
-                  control"
                   placeholder="Password"
+                  class="form-control"
                 />
               </div>
-              <div 12">
-                <div check">
+              <div class="col-12">
+                <div class="form-check">
                   <input
-                    check-input"
                     type="checkbox"
                     id="rememberMe"
+                    class="form-check-input"
                   />
-                  <label check-label" for="rememberMe">
+                  <label for="rememberMe" class="form-check-label">
                     Remember me</label
                   >
                 </div>
               </div>
-              <div 12">
-                <button type="submit" btn-dark float-end">
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary float-end">
                   Login
                 </button>
               </div>
             </form>
-            <hr 4" />
-            <div 12">
-              <p center mb-0">
+            <hr class="mt-4" />
+            <div class="col-12">
+              <p class="text-center mb-0">
                 Have not account yet? <a href="#">Signup</a>
               </p>
             </div>
