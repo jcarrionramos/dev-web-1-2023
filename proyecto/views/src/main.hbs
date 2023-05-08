@@ -1,0 +1,14 @@
+{{#if blocked}}
+  <h1>Usuario bloqueado</h1>
+
+{{else}}
+  <h1>Hola {{user.name}} {{user.lastname}} bienvenido de vuelta</h1>
+
+  <h2>Tus tareas del día</h2>
+
+  <ul>
+    {{#each user.list}}
+      <li>{{this.name}} ({{this.priority}})</li>
+    {{/each}}
+  </ul>
+{{/if}}
